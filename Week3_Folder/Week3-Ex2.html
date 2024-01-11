@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang ="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Exercise 2 | Web Programming</title>
+        <link rel="icon" href = "../pawprint.png">
+
+    </head>
+    <body>
+        <h1>Christmas Party Feedback Form</h1>
+    <form>
+        <div name="details">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name"><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email"><br>
+
+            <label for="age">Age:</label>
+            <input type="number" id="age" placeholder="Enter your age"><br>
+        </div>
+        <div>
+            <label for="type">Which option best describes you?</label>
+            <input list="type" name="type" placeholder="Student">
+            <datalist id="type">
+                <option value="student">
+                <option value="faculty">
+                <option value="intern">
+                <option value="others">
+            </datalist><br>
+
+            <label for="radioB">Did you enjoy the party?</label>
+            <input type="radio" id="radio" name="radio" value="yes">
+            <input type="radio" id="radio2" name="radio" value="no"><br>
+
+            <label for="answers">What did you like about the program?</label><br>
+            <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+
+            <label for="food1"> Games</label><br>
+            <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+            <label for="food2"> Learning session from industry experts</label><br>
+            <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+            <label for="food3"> Meeting new people</label><br>
+            <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+            <label for="food4">Event's Place</label><br>
+            <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+            <label for="food5"> Raffle</label><br>
+            <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+            <label for="food6"> Foods and Drinks</label><br>
+        </div>
+        <label for="comment">Any comments or suggestions?</label><br>
+        <textarea name="comments" id="comments" placeholder="Comments or suggestions..."></textarea>
+        </textarea><br>
+
+        <input type="reset">
+        <input type="submit">
+            
+    </form>
+
+    </body>
+</html>
